@@ -329,7 +329,7 @@ class NutritionPredictor:
         # Train model with better hyperparameters for this dataset size
         self.model = RandomForestRegressor(
             n_estimators=100, 
-            max_depth=6,  # Prevent overfitting with small dataset
+            max_depth=6,
             min_samples_split=3,
             min_samples_leaf=2,
             max_features='sqrt',
