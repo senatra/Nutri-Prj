@@ -1,0 +1,71 @@
+{
+  "model_version": "1.0.0",
+  "training_date": "2025-08-20T09:36:24.706768",
+  "num_districts": 28,
+  "num_features": 17,
+  "feature_names": [
+    "vulnerability",
+    "kcal_adequacy",
+    "region_encoded",
+    "population_log",
+    "is_urban",
+    "avg_nutrient_adequacy",
+    "nutrient_deficiency_count",
+    "high_vulnerability",
+    "medium_vulnerability",
+    "low_kcal_adequacy",
+    "very_low_kcal_adequacy",
+    "severe_micronutrient_deficiency",
+    "multiple_deficiencies",
+    "compound_risk",
+    "critical_b12_deficiency",
+    "riboflavin_deficiency",
+    "vitamin_a_deficiency"
+  ],
+  "districts": [
+    "Balaka",
+    "Blantyre",
+    "Chikwawa",
+    "Chiradzulu",
+    "Chitipa",
+    "Dedza",
+    "Dowa",
+    "Karonga",
+    "Kasungu",
+    "Likoma",
+    "Lilongwe",
+    "Machinga",
+    "Mangochi",
+    "Mchinji",
+    "Mulanje",
+    "Mwanza",
+    "Mzimba",
+    "Neno",
+    "Nkhata Bay",
+    "Nkhotakota",
+    "Nsanje",
+    "Ntcheu",
+    "Ntchisi",
+    "Phalombe",
+    "Rumphi",
+    "Salima",
+    "Thyolo",
+    "Zomba"
+  ],
+  "regions": [
+    "Southern",
+    "Northern",
+    "Central"
+  ],
+  "risk_thresholds": {
+    "low": 0.3,
+    "moderate": 0.6,
+    "high": 1.0
+  },
+  "intervention_types": [
+    "supplementation",
+    "fortification",
+    "cash_transfer",
+    "nutrition_education"
+  ]
+}
